@@ -1,0 +1,29 @@
+{
+    "name": "munenemuchungu/omnipay-mpesa",
+    "type": "library",
+    "description": "lipa na mpesa omnipay gateway",
+    "keywords": [
+        "omnipay",
+        "mpesa",
+        "lipa na mpesa"
+    ],
+    "homepage": "https://github.com/MuneneMuchungu/omnipay-mpesa",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "munene muchungu",
+            "email": "munenemuchungu@gmail.com",
+            "homepage": "https://accessible.co.ke"
+        }
+    ], 
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Mpesa\\": "src"
+        }
+    },
+   "require": {
+        "php": "^8.2.12",
+        "omnipay/common": "^3"
+    }
+    ,"minimum-stability": "stable"
+}
