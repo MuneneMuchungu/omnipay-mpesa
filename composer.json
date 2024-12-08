@@ -25,5 +25,5 @@
         "php": "^8.2.12",
         "omnipay/common": "^3"
     }
-    ,"minimum-stability": "stable"
+    ,"minimum-stability": "dev"
 }
