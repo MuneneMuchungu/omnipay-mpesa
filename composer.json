@@ -16,7 +16,7 @@
             "homepage": "https://accessible.co.ke"
         }
     ], 
-    "autoload": {
+   "autoload": {
         "psr-4": {
             "Omnipay\\Mpesa\\": "src"
         }
@@ -24,6 +24,12 @@
    "require": {
         "php": "^8.2.12",
         "omnipay/common": "^3"
+    },
+     "extra": {
+        "branch-alias": {
+            "dev-master": "v1.7-dev"
+        }
     }
-    ,"minimum-stability": "dev"
+    ,"minimum-stability": "stable"
 }
+
